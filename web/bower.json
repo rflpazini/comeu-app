@@ -2,7 +2,8 @@
   "name": "comeu-app",
   "version": "0.1.0",
   "authors": [
-    "Rafael Pazini <rflpazini@gmail.com>"
+    "Rafael Pazini <rflpazini@gmail.com>",
+    "Bruno Borges <borgesbruno@hotmail.com.br>"
   ],
   "description": "app for APS and it will be sell when is possible",
   "main": "index.html",
