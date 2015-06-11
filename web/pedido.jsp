@@ -39,8 +39,8 @@
                     </ul>
                     <div class="view-style dsn">
                         <div class="list-grid-view">
-<!--                            <button class="thumb-view"><i class="fa fa-list"></i></button>
-                            <button class="without-thumb"><i class="fa fa-align-justify"></i></button>-->
+                            <button class="thumb-view"><i class="fa fa-list"></i></button>
+                            <button class="without-thumb"><i class="fa fa-align-justify"></i></button>
                             <button class="grid-view"><i class="fa fa-th-list"></i></button>
                         </div>
                         <!-- end .list-grid-view -->
@@ -66,7 +66,7 @@
                     <div class="tab-content">
                         <div class="tab-pane fade in active" id="tab-1">
 
-                            <h5>Todos</h5>
+                            <h1>Todos</h1>
                             <div class="all-menu-details">
                             <%
                                 CardapioDAO cDao = new CardapioDAO();
@@ -80,7 +80,7 @@
                                             + "<div class  ='all-details'>"
                                             + "<div class ='visible-option'>"
                                             + "<div class ='details'>"
-                                            + "<h6><a href='#'>" + cardapio.getDescricao() + "</a></h6>"
+                                            + "<h3><a href='#'>" + cardapio.getDescricao() + "</a></h3>"
                                             + "<ul class ='share-this list-inline text-right'>"
                                             + "<li><a href='#'>Share</a>"
                                             + "<ul class ='list-inline'>"
@@ -96,7 +96,7 @@
                                             + "</li>"
                                             + "</ul>"
                                             + "<div class='qty-cart text-center clearfix'>"
-                                            + "<h6>Quantidade</h6>"
+                                            + "<h4>Quantidade</h4>"
                                             + "<form class=''>"
                                             + "<input type='text' placeholder='1'>"
                                             + "<br>"
@@ -138,7 +138,7 @@
                                             + "<label for='additional-butter-2'>Additional Butter <i class='fa fa-plus price'>R$3.00</i>"
                                             + "</label>"
                                             + "</span>"
-                                            + "<h6>Additional Notes</h6>"
+                                            + "<h6>Notas adicionais</h6>"
                                             + "<textarea placeholder='Write here'></textarea>"
                                             + "<a class='btn btn-default-red'>Confirme</a>"
                                             + "<a class='btn btn-default-black'>Cancele</a>"
