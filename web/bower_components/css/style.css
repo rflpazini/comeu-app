@@ -2344,7 +2344,8 @@ input[type="button"].btn-block {
     position: relative;
 }
 
-#main-wrapper .all-menu-details .item-list .all-details .visible-option {
+#main-wrapper .all-menu-details .item-list .all-details .visible-option,
+.visible-option {
     position: relative;
     width: 100%;
     height: 125px;
@@ -2474,27 +2475,31 @@ input[type="button"].btn-block {
 /* start qty and cart option */
 /***************************************************/
 
-#main-wrapper .all-menu-details .qty-cart {
+#main-wrapper .all-menu-details .qty-cart,
+#main-wrapper .qty-cart {
     width: 15%;
     height: inherit;
     position: relative;
     float: left;
 }
 
-#main-wrapper .all-menu-details .right-checkout .qty-cart {
+#main-wrapper .all-menu-details .right-checkout .qty-cart,
+#main-wrapper .right-checkout .qty-cart{
     width: 18%;
     height: inherit;
     position: relative;
     float: left;
 }
 
-#main-wrapper .all-menu-details .qty-cart h6 {
+#main-wrapper .all-menu-details .qty-cart h6,
+#main-wrapper .qty-cart h6 {
     margin: 0;
     padding: 10px 0;
     font-weight: normal;
 }
 
-#main-wrapper .all-menu-details .qty-cart input[type="text"] {
+#main-wrapper .all-menu-details .qty-cart input[type="text"],
+#main-wrapper .qty-cart input[type="text"]{
     text-align: center;
     height: 30px;
     width: 60px;
@@ -2504,11 +2509,14 @@ input[type="button"].btn-block {
 }
 
 #main-wrapper .all-menu-details .qty-cart input:focus,
-#main-wrapper .all-menu-details .qty-cart input:active {
+#main-wrapper .all-menu-details .qty-cart input:active,
+#main-wrapper .qty-cart input:focus,
+#main-wrapper .qty-cart input:active {
     outline: none;
 }
 
-#main-wrapper .all-menu-details .qty-cart button {
+#main-wrapper .all-menu-details .qty-cart button,
+#main-wrapper .qty-cart button{
     position: relative;
     background: transparent;
     border-radius: 7px;
@@ -2521,7 +2529,8 @@ input[type="button"].btn-block {
     padding-left: 20px;
 }
 
-#main-wrapper .all-menu-details .qty-cart button:before {
+#main-wrapper .all-menu-details .qty-cart button:before,
+#main-wrapper .qty-cart button:before {
     font-family: 'FontAwesome';
     content: "\f067";
     position: absolute;
@@ -2529,7 +2538,8 @@ input[type="button"].btn-block {
     left: 10px;
 }
 
-#main-wrapper .all-menu-details .qty-cart button.active:before {
+#main-wrapper .all-menu-details .qty-cart button.active:before,
+#main-wrapper .qty-cart button.active:before {
     font-family: 'FontAwesome';
     content: "\f068";
     position: absolute;
@@ -5443,7 +5453,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Comeu !impotant;
+    font-family: Comeu !important;
 }
 
 #footer2 {

@@ -886,25 +886,27 @@ $(document).ready(function(){
 	// STYLE SWITCHER END
 
 	// view swticher 
-		$('.thumb-view').addClass('active');
+		$('.grid-view').addClass('active');
 	$('.list-grid-view button').on('click',function(e) {
-		if ($(this).hasClass('thumb-view')) {
-			$(this).addClass('active');
-			$('.without-thumb').removeClass('active');
-			$('.grid-view').removeClass('active');
-			$('.all-menu-details').removeClass('thumb');
-			$('.menu-with-details').removeClass('menu-with-details').addClass('item-list');
-			$('.for-list').show();
-		}
-		else if($(this).hasClass('without-thumb')) {
-			$(this).addClass('active');
-			$('.thumb-view').removeClass('active');
-			$('.grid-view').removeClass('active');
-			$('.all-menu-details').addClass('thumb');
-			$('.menu-with-details').removeClass('menu-with-details').addClass('item-list');
-			$('.for-list').show();
-		}
-		else if($(this).hasClass('grid-view')) {
+//		if ($(this).hasClass('thumb-view')) {
+//			$(this).addClass('active');
+//			$('.without-thumb').removeClass('active');
+//			$('.grid-view').removeClass('active');
+//			$('.all-menu-details').removeClass('thumb');
+//			$('.menu-with-details').removeClass('menu-with-details').addClass('item-list');
+//			$('.for-list').show();
+//		}
+//		else if($(this).hasClass('without-thumb')) {
+//			$(this).addClass('active');
+//			$('.thumb-view').removeClass('active');
+//			$('.grid-view').removeClass('active');
+//			$('.all-menu-details').addClass('thumb');
+//			$('.menu-with-details').removeClass('menu-with-details').addClass('item-list');
+//			$('.for-list').show();
+//		}
+//		else
+//		
+                 if($(this).hasClass('grid-view')) {
 			$('.thumb-view').removeClass('active');
 			$('.without-thumb').removeClass('active');
 			$(this).addClass('active');
